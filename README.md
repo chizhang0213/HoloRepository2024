@@ -1,5 +1,3 @@
-# How to Set Up the Application:
-
 # 1. Speech Inference Environment Setup
 
 Here provides a setup for speech inference using a predefined Conda environment. Follow the steps below to set up and activate the environment.
@@ -61,6 +59,13 @@ If you need to remove the environment for any reason, use the following command:
 ```bash
 conda env remove --prefix ./speech_recognition_env
 ```
+# 2. Change the Database Setting
+
+Create a new database, restore the database using the file provided and change the parameters of connection string in DatabaseConnection.cs to your own.
+
+# 3. Change the directory path to the Organ Slices
+
+Change the directoryPath in the AddOrganSlice.cs to the path accessing the pictures stored in your computer.
 
 
 
