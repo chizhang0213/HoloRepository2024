@@ -1,4 +1,6 @@
-# Speech Inference Environment Setup
+# How to Set Up the Application:
+
+# 1. Speech Inference Environment Setup
 
 Here provides a setup for speech inference using a predefined Conda environment. Follow the steps below to set up and activate the environment.
 
